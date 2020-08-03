@@ -1,9 +1,10 @@
 package types
 
-type Platform string
+type Platform = string
 
 const (
-	Ethereum Platform = "ethereum"
-	Bitcoin           = "bitcoin"
-	Klaytn            = "klaytn"
+	Unknown  = Platform("unknown")
+	Ethereum = Platform("ethereum")
+	Bitcoin  = Platform("bitcoin")
+	Klaytn   = Platform("klaytn")
 )
